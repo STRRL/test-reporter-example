@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="chaosmesh e2e suit" tests="16" failures="0" errors="0" time="500.401">
+      <testcase name="[Basic] [HTTPChaos] [HTTPDelay] [Pause]" classname="chaosmesh e2e suit" time="17.197509352"></testcase>
+      <testcase name="[Basic] [PodChaos] [PodKill] [Pause]" classname="chaosmesh e2e suit" time="78.138218594"></testcase>
+      <testcase name="[Graceful-Shutdown] [HTTPChaos] [Shutdown]" classname="chaosmesh e2e suit" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[Basic] [Sidecar Config] [Template Config] [InValid ConfigMap key]" classname="chaosmesh e2e suit" time="10.070618876"></testcase>
+      <testcase name="[Basic] [PodChaos] [PodFailure] [Pause]" classname="chaosmesh e2e suit" time="27.162391952"></testcase>
+      <testcase name="[Basic] [DNSChaos] [ERROR]" classname="chaosmesh e2e suit" time="11.556976584000001"></testcase>
+      <testcase name="[Basic] [IOChaos] [IODelay] [Schedule]" classname="chaosmesh e2e suit" time="16.34953954"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPAbort] [Schedule]" classname="chaosmesh e2e suit" time="6.1777825140000004"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPDelay] [Schedule]" classname="chaosmesh e2e suit" time="11.10112848"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPReplaceBody] [Pause]" classname="chaosmesh e2e suit" time="7.153734399"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOErrno] [Pause]" classname="chaosmesh e2e suit" time="19.299371793"></testcase>
+      <testcase name="[Basic] [NetworkChaos] [NetworkPartition] [Schedule]" classname="chaosmesh e2e suit" time="135.360461602"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPPatch] [Pause]" classname="chaosmesh e2e suit" time="7.217596629"></testcase>
+      <testcase name="[Graceful-Shutdown] [IOChaos] [Shutdown]" classname="chaosmesh e2e suit" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[Basic] [Sidecar Config] [Injection Config] [No Template Args]" classname="chaosmesh e2e suit" time="12.215665893"></testcase>
+      <testcase name="[Basic] [NetworkChaos] [Netem] [Schedule]" classname="chaosmesh e2e suit" time="124.568641216"></testcase>
+      <testcase name="[Basic] [StressChaos] [Memory]" classname="chaosmesh e2e suit" time="6.520990444"></testcase>
+      <testcase name="[Basic] [StressChaos] [CPU]" classname="chaosmesh e2e suit" time="10.245354639"></testcase>
+  </testsuite>

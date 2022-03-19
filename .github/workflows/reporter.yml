@@ -1,0 +1,19 @@
+name: Test Report
+on:
+  workflow_run:
+    workflows: ['Test']
+    types:
+      - completed
+
+jobs:
+  e2e-test-report:
+    runs-on: ubuntu-latest
+    steps:
+    - name: build test report
+      # only triggered by another workflow
+      uses: STRRL/test-reporter@v1
+      with:
+        artifact: '/test-junit-reports-(.*)/'
+        name: "Tests Report $1"
+        path: "**/*.xml"
+        reporter: java-junit

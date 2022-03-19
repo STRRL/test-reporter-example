@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="chaosmesh e2e suit" tests="19" failures="0" errors="0" time="437.15">
+      <testcase name="[Basic] [Sidecar Config] [Injection Config] [No Template Args]" classname="chaosmesh e2e suit" time="12.220494326"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOMistake] [Pause]" classname="chaosmesh e2e suit" time="19.320430796"></testcase>
+      <testcase name="[Basic] [IOChaos] [IODelay] [Pause]" classname="chaosmesh e2e suit" time="19.482529338"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOErrno] [Schedule]" classname="chaosmesh e2e suit" time="16.204865585"></testcase>
+      <testcase name="[Basic] [PodChaos] [PodKill] [Pause]" classname="chaosmesh e2e suit" time="74.144559774"></testcase>
+      <testcase name="[Basic] [Sidecar Config] [Template Config] [InValid ConfigMap key]" classname="chaosmesh e2e suit" time="10.086874327"></testcase>
+      <testcase name="[Graceful-Shutdown] [IOChaos] [Shutdown]" classname="chaosmesh e2e suit" time="0">
+          <skipped></skipped>
+      </testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPPatch] [Pause]" classname="chaosmesh e2e suit" time="7.151104901"></testcase>
+      <testcase name="[Basic] [NetworkChaos] [Netem] [PeersCrossoverWithDirectionBoth]" classname="chaosmesh e2e suit" time="38.157986717"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPReplace] [Pause]" classname="chaosmesh e2e suit" time="7.190030771"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOMistake] [Schedule]" classname="chaosmesh e2e suit" time="16.207595059"></testcase>
+      <testcase name="[Basic] [TimeChaos] [TimeSkew] [Pause]" classname="chaosmesh e2e suit" time="79.194744247"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOMistake] [SpecifyContainer]" classname="chaosmesh e2e suit" time="14.324116155"></testcase>
+      <testcase name="[Basic] [Sidecar Config] [Injection Config] [No Template]" classname="chaosmesh e2e suit" time="14.133486242"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPReplaceBody] [Schedule]" classname="chaosmesh e2e suit" time="6.137826428"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPPatch] [Schedule]" classname="chaosmesh e2e suit" time="6.140747252"></testcase>
+      <testcase name="[Basic] [TimeChaos] [TimeSkew] [Schedule]" classname="chaosmesh e2e suit" time="69.170842331"></testcase>
+      <testcase name="[Basic] [IOChaos] [IODelay] [SpecifyContainer]" classname="chaosmesh e2e suit" time="14.2959804"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPReplaceBody] [Pause]" classname="chaosmesh e2e suit" time="7.288335866"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPReplace] [Schedule]" classname="chaosmesh e2e suit" time="6.232256749"></testcase>
+  </testsuite>

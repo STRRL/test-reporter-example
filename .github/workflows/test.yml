@@ -1,0 +1,16 @@
+name: Test
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    steps:
+      - name: post run - upload junit test reports
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-junit-reports-foo-bar
+          path: "**/*.xml"
+          retention-days: 7
+  

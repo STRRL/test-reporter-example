@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="chaosmesh e2e suit" tests="18" failures="0" errors="0" time="485.281">
+      <testcase name="[Basic] [HTTPChaos] [HTTPDelay] [Pause]" classname="chaosmesh e2e suit" time="17.210021026"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOMistake] [Pause]" classname="chaosmesh e2e suit" time="19.2924268"></testcase>
+      <testcase name="[Basic] [StressChaos] [Memory]" classname="chaosmesh e2e suit" time="6.285536798"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOErrno] [Schedule]" classname="chaosmesh e2e suit" time="14.291574515"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPAbort] [Pause]" classname="chaosmesh e2e suit" time="7.138284366"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPReplaceBody] [Schedule]" classname="chaosmesh e2e suit" time="6.128357493"></testcase>
+      <testcase name="[Basic] [Sidecar Config] [Injection Config] [No Template Args]" classname="chaosmesh e2e suit" time="12.108180311"></testcase>
+      <testcase name="[Basic] [PodChaos] [PodKill] [Schedule]" classname="chaosmesh e2e suit" time="10.066604649"></testcase>
+      <testcase name="[Basic] [NetworkChaos] [Netem] [PeersCrossoverWithDirectionBoth]" classname="chaosmesh e2e suit" time="38.051566966"></testcase>
+      <testcase name="[Basic] [NetworkChaos] [Netem] [Schedule]" classname="chaosmesh e2e suit" time="126.317305953"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOMistake] [Schedule]" classname="chaosmesh e2e suit" time="14.181933925"></testcase>
+      <testcase name="[Basic] [HTTPChaos] [HTTPReplace] [Pause]" classname="chaosmesh e2e suit" time="7.142008779"></testcase>
+      <testcase name="[Basic] [NetworkChaos] [ForbidHostNetwork] [Schedule]" classname="chaosmesh e2e suit" time="15.315909579"></testcase>
+      <testcase name="[Basic] [TimeChaos] [TimeSkew] [Schedule]" classname="chaosmesh e2e suit" time="69.1580249"></testcase>
+      <testcase name="[Basic] [IOChaos] [IODelay] [WrongSpec]" classname="chaosmesh e2e suit" time="4.127289708"></testcase>
+      <testcase name="[Basic] [PodChaos] [ContainerKill] [Pause]" classname="chaosmesh e2e suit" time="92.123785675"></testcase>
+      <testcase name="[Basic] [PodChaos] [PodFailure] [Schedule]" classname="chaosmesh e2e suit" time="12.073376776"></testcase>
+      <testcase name="[Basic] [IOChaos] [IOMistake] [SpecifyContainer]" classname="chaosmesh e2e suit" time="14.173217646"></testcase>
+  </testsuite>
