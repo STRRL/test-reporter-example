@@ -7,6 +7,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout codes
+        uses: actions/checkout@v2
       - name: post run - upload junit test reports
         if: always()
         uses: actions/upload-artifact@v2
