@@ -1,13 +1,21 @@
 name: Test Report
 on:
+  pull_request: {}
   workflow_run:
     workflows: ['Test']
     types:
       - completed
 
 jobs:
+  placeholder:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+    - name: placeholder
+      run: exit 0
   e2e-test-report:
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
     steps:
     - name: build test report
       # only triggered by another workflow
