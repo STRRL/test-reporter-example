@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: build test report
       # only triggered by another workflow
-      uses: STRRL/test-reporter@v1
+      uses: STRRL/test-reporter@main
       with:
         artifact: '/test-junit-reports-(.*)/'
         name: "Tests Report $1"
