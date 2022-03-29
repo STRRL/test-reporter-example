@@ -17,4 +17,11 @@ jobs:
           name: test-junit-reports-foo-bar
           path: "**/*.xml"
           retention-days: 7
-  
+      - name: build inline test report 
+        # only triggered by another workflow
+        uses: dorny/test-reporter@v1
+        with:
+          name: "Tests Report $1"
+          path: "**/*.xml"
+          reporter: java-junit
+    
